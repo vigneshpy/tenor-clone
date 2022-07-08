@@ -1,11 +1,10 @@
 import React from 'react';
 import logoWhite from '../tenor-logo-white.svg'
-import { styled,alpha } from '@mui/material/styles';
+import SearchBar from './SearchBar'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import SearchIcon from '@mui/icons-material/Search';
-import InputBase from '@mui/material/InputBase';
+
 
 
 const Header=()=>{
@@ -17,7 +16,7 @@ const Header=()=>{
                 <img src={logoWhite} width={80}  height={22}/>
             </Box>
             <Box ml={15}>
-
+                <SearchBar />
           </Box>
         </Toolbar>
       </AppBar>
